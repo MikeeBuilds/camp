@@ -60,8 +60,7 @@ const Footer = () => {
                       <Image
                         src={link}
                         alt='logo'
-                        width={24}
-                        height={24}
+                        
                       />
                     </Link>
                   ))}
@@ -70,9 +69,6 @@ const Footer = () => {
             </div>
           </div>
         </div>
-
-        <div className='border bg-gray-20'/>
-        <p className='regular-14 w-full text-center text-gray-30'>2023-2024 Hilink | All Rights Reserved</p>
       </div>
     </footer>
   )
