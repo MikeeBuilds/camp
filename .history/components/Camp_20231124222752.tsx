@@ -54,7 +54,7 @@ const CampSite = ({ backgroundImage, title, subtitle, peopleJoined }: CampProps)
 
 const Camp = () => {
   return (
-    <section className=' 2xl:max-container 
+    <section className='border-2 2xl:max-container 
     relative flex flex-col py-10 lg:mb-20 xl:mb-20'>
       <div className='hide-scrollbar flex h-[340px] w-full items-start 
       justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]'>
@@ -79,17 +79,8 @@ const Camp = () => {
             And Not Knowing The Way?
           </h2>
           <p className="regular-14 xl:regular-16 mt-5 text-white">
-            Starting from the anxiety of the hikers when visiting a new hiking location, 
-            the possibility of getting lost is very strong. That's why we are here for those of you 
-            who want to start a new adventure
+            Starting from the anxiety of the hikers when visiting a new hiking location, the possibility of getting lost is very strong. That's why we are here for those of you who want to start a new adventure
           </p>
-          <Image
-            src="/quote.svg"
-            alt="camp-2"
-            width={186}
-            height={219}
-            className="camp-quote"
-          />
         </div>
       </div>
     </section>
