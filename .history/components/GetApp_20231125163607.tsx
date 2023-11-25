@@ -1,4 +1,3 @@
-import Image from "next/image"
 import Button from "./Button"
 
 
@@ -30,10 +29,9 @@ const GetApp = () => {
 
         <div className="flex flex-1 items-center justify-end">
           <Image
-            src="/phones.png"
+            src="/phones.svg"
             alt="phone"
             width={550}
-            height={870}
           />
         </div>
       </div>
