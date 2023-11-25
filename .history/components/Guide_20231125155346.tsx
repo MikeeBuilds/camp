@@ -4,7 +4,7 @@ import React from 'react'
 const Guide = () => {
   return (
     <section className='flexCenter flex-col'>
-      <div className='padding-container max-container 
+      <div className='border-2 border-red-500 padding-container max-container 
       w-full pb-24'>
         <Image
           src="/camp.svg"
@@ -26,7 +26,7 @@ const Guide = () => {
         </div>
       </div> 
 
-      <div className='flexCenter max-container relative w-full'>
+      <div className='flexCenter max-container relative w-full border-2 border-blue-500'>
           <Image
             src="/boat.png"
             alt='boat'
@@ -36,26 +36,8 @@ const Guide = () => {
           />
           
           <div className='absolute flex bg-white py-8 pl-5 pr-7 gap-3 rounded-3xl border shadow-md md:left-[5%] lg:top-20'>
-            <Image
-              src="/meter.svg"
-              alt='meter'
-              width={16}
-              height={158}
-              h-full w-auto
-            />
-            <div className='flexbetween flex-col'>
-              <div className='flex w-full flex-col'>
-                <div className='flexBetween w-full'>
-                  <p className='regaular-16 text-gray-20'>Destination</p>
-                  <p className='bold-16 text-green-50'>48 min</p>
-                </div>
-                  <p className='bold-20 mt-2'>Black Mesa State Park & Nature Preserve</p>
-              </div>
-
-              <div className='flex w-full flex-col'>
-                  <p className='regaular-16 text-gray-20'>Start Track</p>
-                  <h4 className='bold-20 mt-2 whitespace-nowrap'>Lake Carl Etling</h4>
-              </div>
+            <div>
+              
             </div>
           </div>
       </div>

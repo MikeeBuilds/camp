@@ -8,6 +8,7 @@ interface CampProps {
   peopleJoined: string
 }
 
+
 const CampSite = ({ backgroundImage, title, subtitle, peopleJoined }: CampProps) => {
   return (
     <div className={`h-full w-full min-w-[1100px] ${backgroundImage} bg-cover bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl`}>

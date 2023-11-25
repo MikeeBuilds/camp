@@ -17,9 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="img/favicon.ico" sizes='any'/>
-      </head>
+      <link rel="stylesheet" href="/pub" />
       <body className="">
         <Navbar/>
         <main className='relative overflow-hidden'>
